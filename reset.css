@@ -28,6 +28,7 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.904);
     color: white;
+    overflow: hidden;
  
 }
 .brand-logo {
