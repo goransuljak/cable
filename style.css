@@ -1,0 +1,627 @@
+
+.header {
+    background-image: url(images/cable.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+
+.register {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.button {
+    background-color: #1C6BD4;
+    border: 1px solid #1C6BD4;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.packages {
+    background-image: url(images/movies.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.free {
+    background-color: rgba(15, 255, 123, 0.877);
+    border-radius: 10px;
+    border: 1px solid #1C6BD4;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+
+}
+.premium {
+    background-color: rgba(15, 255, 123, 0.877);
+    border-radius: 10px;
+    border: 1px solid #1C6BD4;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+}
+.watch {
+    background-image: url(images/champions.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+
+}
+.champions {
+    width: 450px;
+    margin-top: 5px;
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+.streammovie {
+    width: 450px;
+    padding-left: 10rem;
+
+}
+#phone {
+    border: 1px solid #1C6BD4;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+
+
+}
+
+.eric {
+
+    width: 550px;
+    font-size: 18px;
+    color: gray;
+    
+    
+}
+.backgrounderic {
+
+    height: 700px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.ericimage {
+    padding-top: 3px;
+}
+
+#contact {
+    border: 1px solid #1C6BD4;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+   
+
+}
+
+.footer {
+    background-color: #0FFF79;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.customercare {
+    
+    font-size: 18px;
+    color: black;
+}
+.customercare a{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+.socialmedia a {
+    text-decoration: none;
+    color:  white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.socialmedia {
+    padding-right: 4rem;
+    font-size: 18px;
+    color:#1C6BD4;
+}
+.map {
+    font-size: 18px;
+    color: black;
+}
+#bottom {
+    position: absolute;
+    background-color: #0FFF79;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+@media (max-width:768px) {
+    .packages {
+        height: 768px;
+    }
+    .free {
+        height: 768px;
+    }
+    .premium {
+        height: 768px;
+    }
+    .watch {
+        background-image: none;
+    
+      }
+      .champions {
+        width: 100%;
+        text-align: center;
+        padding-right: 10em;
+      }
+      .streammovie {
+          width: 100%;
+          text-align: center;
+          padding-right: 10em;
+      }
+    
+  
+    .backgrounderic {
+        background-image: none;
+    
+    }
+
+    .eric {
+        position: absolute;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.74);
+        color: black;
+        width: 100%;
+    }
+    .jim {
+        width: 400px;
+    }
+    .map {
+        display: none;
+    }
+    .footer {
+        display:flex;
+        height: 800px;
+    
+    
+    }
+    .socialmedia {
+        flex-direction: column;
+        align-items: center;
+    
+     
+    
+    }
+    .customercare {
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        margin-top: 18px;
+    }
+}
+
+.ikone {
+    background-image: url(images/backgroundblue.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.androidtv {
+    background-image: url(images/backblue.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 800px;
+}
+.androidtext {
+    width: 600px;
+    font-size: 1rem;
+}
+.slika {
+    width:400px;
+}
+.slika2 {
+    width:400px;
+}
+.slika3 {
+    width: 400px;
+}
+.satellitetext {
+    width: 600px;
+    font-size: 1rem;
+}
+.satellitetv {
+    background-image: url(images/backbluereverse.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 800px;
+    
+}
+
+.cabletv {
+    background-image: url(/images/backblue.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 800px;
+}
+.cabletvtext {
+    width: 600px;
+    font-size: 1rem;
+}
+@media (max-width: 768px) {
+    .ikone {
+       display: none;
+        }
+    
+    .slika {
+        display: none;
+    }
+    .slika2 {
+        display: none;
+    }
+    .slika3 {
+        display: none;
+    }
+    .androidtv {
+        background-image: url(images/backgroundblue.jpg);
+        text-align: center;
+        font-size: 0.5rem;
+        color:#1C6BD4;
+        
+    
+    
+    }
+    .satellitetv {
+        background-image: url(images/backgroundblue.jpg);
+        opacity: 0.9;
+        text-align: center;
+        font-size: 0.5rem;
+        color: black;
+        
+    }
+    .cabletv {
+        background-image: url(images/backgroundblue.jpg);
+        opacity: 0.9;
+        text-align: center;
+        font-size: 0.5rem;
+        color: black;
+    }
+    
+}
+
+.internet-header {
+    background-image: url(images/bin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    color: #0E6214;
+    font-size: 1.8rem;
+
+    
+}
+.wifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+
+}
+.packet1 {
+    border: 2px solid #0E6214 ;
+    border-radius: 10px;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+}
+.packet2 {
+    border: 2px solid #0E6214;
+    border-radius: 10px;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+}
+.packet3 {
+    border: 2px solid #0E6214 ;
+    border-radius: 10px;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+.freetext {
+    width: 550px;
+    font-size: 18px;
+}
+.mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0FFF79;
+    height: 600px;
+    font-size: 18px;
+  
+
+    
+}
+.mobiletext {
+    
+    width: 450px;
+}
+
+
+.broadband {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:100px;
+    padding-bottom: 10px;
+    height: 600px;
+    font-size: 18px;
+}
+.order {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url(images/cablevan.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+    height: 500px;
+    
+}
+
+@media (max-width:768px) {
+    .internet-header {
+        width:100%;
+        text-align: center;
+    }
+    .wifi {
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .antena {
+        display:none;
+    }
+    .freetext {
+
+        font-size: 16px;
+
+        text-align: center;
+    
+    }
+    .happy {
+        display: none;
+    }
+    .mobile {
+        height: 550px;
+    
+
+    }
+    .mobiletext {
+        font-size: 16px;
+        text-align: center;
+    }
+    .button {
+        background-color: orangered;
+        border: 1px solid #1C6BD4;
+        color: black;
+        padding: 10px 25px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #phone {
+        border: 1px solid orangered;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    }
+
+}
+
+
+
+
+.help {
+    text-align: center;
+    font-size: 18px;
+}
+.connect {
+    height: 600px;
+    background-color:#181818;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.game {
+    height: 800px;
+    background-color: rgba(15, 255, 123, 0.89);
+    padding-top: 5px;
+}
+
+.getconnected {
+    padding-top: 5px;
+    height: 600px;
+    background-image: url(images/connected.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+   
+    
+}
+.button1 {
+    background-color:rgb(212, 86, 28);
+    border: 1px solid #1C6BD4;
+    color: black;
+    padding: 25px 45px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 4px 2px;
+}
+.button2 {
+    background-color: white;
+    border: 1px solid rgb(212, 86, 28);
+    color: gray;
+    padding: 25px 45px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 4px 2px;
+}
+.game {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+}
+.medievaltimes {
+    width: 300px;
+    text-transform: capitalize;
+
+    
+}
+.basketball {
+    width: 300px;
+    text-transform: capitalize;
+    margin:2rem;
+}
+.karaoke {
+    width: 300px;
+    text-transform: capitalize;
+}
+.community {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 900px;
+    
+}
+.movieclips {
+    text-align: center;
+    height: 600px;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@media (max-width: 768px) {
+    .getconnected {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 2rem;
+        color: black;
+        padding-left: 1rem;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .connect a{
+      display: none;
+    }
+    .game {
+    
+    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        text-align: center;
+        height: 55rem;
+        background-color: #1C6BD4;
+    
+    }
+    .momma {
+         display: none;
+    }
+    .movieclips {
+        display: none;
+    }
+    .community {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 90rem;
+    }
+}
