@@ -371,18 +371,21 @@
 }
 
 .internet-header {
-    background-image: url(images/bin.jpg);
+    background: url(images/bin.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: none;
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 600px;
-    color: #0E6214;
-    font-size: 1.8rem;
-
-    
+    height: 600px;   
+}
+.internet-header h1 {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 30px;
+    border-radius: 45px;
+    border: 1px solid #1C6BD4;
 }
 .wifi {
     display: flex;
@@ -393,21 +396,21 @@
 
 }
 .packet1 {
-    border: 2px solid #0E6214 ;
+    border: 2px solid #1C6BD4;
     border-radius: 10px;
     margin: 50px;
     width: 300px;
     height: 500px;
 }
 .packet2 {
-    border: 2px solid #0E6214;
+    border: 2px solid #1C6BD4;
     border-radius: 10px;
     margin: 50px;
     width: 300px;
     height: 500px;
 }
 .packet3 {
-    border: 2px solid #0E6214 ;
+    border: 2px solid #1C6BD4;
     border-radius: 10px;
     margin: 50px;
     width: 300px;
@@ -427,18 +430,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0FFF79;
+    background: rgba(28, 108, 212, 0.699);
     height: 600px;
     font-size: 18px;
-  
 
-    
 }
+
 .mobiletext {
-    
+    font-size: 18px ;
     width: 450px;
 }
-
 
 .broadband {
     display: flex;
